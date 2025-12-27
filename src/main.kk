@@ -18,10 +18,10 @@ fun resolve(issue: issue): happiness value
     "Entire Team",
     "And of course, you too"
   ]
-  
+
   users.foreach fn(person)
     makeHappy(person)
-  
+
   Value("to create a system and framework to resolve " ++ issue.description)
 
 fun withHappiness(action: () -> <happiness, console|e> a): <console|e> a
@@ -37,4 +37,4 @@ fun main()
     resolve(issue)
 
   println("\nMy solution is " ++ result.solution ++ ".")
-  println("Make everyone ☺️ with architecture!")
+  println("Make everyone ☺️ through architecture!")
